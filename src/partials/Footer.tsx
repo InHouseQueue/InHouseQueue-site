@@ -19,7 +19,7 @@ export default function Footer(props: { withBorder?: boolean }) {
               © 2023 All rights reserved.
             </p>
           </div>
-          {/* col 2 - donate*/}
+          {/* col 2 - links*/}
           <div id="donate-button-container">
           <div id="donate-button"></div>
           <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
@@ -35,7 +35,6 @@ export default function Footer(props: { withBorder?: boolean }) {
           }).render('#donate-button');
           </script>
           </div>
-          {/* col 2 - links*/}
           <div>
             <h3 className="text-lg font-bold">Resources</h3>
             <ul className="mt-4 space-y-4">
