@@ -389,8 +389,8 @@ const commands = [
     ]
   },
     {
-      "name": "test",
-      "type": "test",
+      "name": "agent",
+      "type": "Valorant",
       "description": "Select your agent. Only works inside a lobby channel",
       "usage": [
         "/agent [name]",
