@@ -388,6 +388,17 @@ const commands = [
       "/agent Astra",
     ]
   },
+    {
+      "name": "test",
+      "type": "test",
+      "description": "Select your agent. Only works inside a lobby channel",
+      "usage": [
+        "/agent [name]",
+      ],
+      "examples": [
+        "/agent Astra",
+      ]
+    },
 ] as const;
 
 // export commands
