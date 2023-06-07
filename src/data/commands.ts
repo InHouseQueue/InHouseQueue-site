@@ -277,7 +277,7 @@ const commands = [
   {
     "name": "leaderboard",
     "type": "General",
-    "description": "Display a specific leaderboard.",
+    "description": "Returns the top 20 members of a game leaderboard.",
     "usage": [
       "/leaderboard_[game] [options]"
     ],
@@ -285,6 +285,19 @@ const commands = [
       "/leaderboard_lol mmr",
       "/leaderboard_lol mvp",
       "/leaderboard_lol"
+    ]
+  },
+  {
+    "name": "leaderboard_full",
+    "type": "General",
+    "description": "Display the full leaderboard of a game.",
+    "usage": [
+      "/leaderboard_full_[game] [options]"
+    ],
+    "examples": [
+      "/leaderboard_full_lol mmr",
+      "/leaderboard_full_lol mvp",
+      "/leaderboard_full_lol"
     ]
   },
   {
