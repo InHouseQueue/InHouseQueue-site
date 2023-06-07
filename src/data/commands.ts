@@ -277,7 +277,7 @@ const commands = [
   {
     "name": "leaderboard",
     "type": "General",
-    "description": "Returns the top 20 members of a game leaderboard.",
+    "description": "Display the top 20 members of a game leaderboard.",
     "usage": [
       "/leaderboard_[game] [options]"
     ],
