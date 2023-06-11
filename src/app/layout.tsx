@@ -1,12 +1,12 @@
 import React, { Suspense } from "react";
-import resolveConfig from "tailwindcss/resolveConfig";
-import tailwindConfig from "../../tailwind.config.cjs";
+// import resolveConfig from "tailwindcss/resolveConfig";
+// import tailwindConfig from "../../tailwind.config.cjs";
 import banner from "../assets/banner.webp";
 import AOSInit from "../components/AOSInit";
 import Footer from "../partials/Footer";
 
 // get the tailwind config for colors
-const config = resolveConfig(tailwindConfig);
+// const config = resolveConfig(tailwindConfig);
 
 // import global styles
 import "../styles/globals.css";
@@ -26,7 +26,8 @@ export default function App({
         {/* Meta Tags */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="In-House Queue" />
-        <meta name="theme-color" content={config.theme?.colors?.primary as string} />
+        {/* <meta name="theme-color" content={config.theme?.colors?.primary as string } /> */}
+        <meta name="theme-color" content="#f65426" /> {/* Previously line above ^ */} 
         
         {/* discord embed / twitter card */}
         <meta name="twitter:card" content="summary_large_image" />
