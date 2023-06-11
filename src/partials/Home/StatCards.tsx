@@ -1,3 +1,4 @@
+import axios from "axios";
 import StatCard from "../../components/StatCard/StatCard";
 
 interface IStatsProps {
@@ -9,34 +10,29 @@ interface IStatsProps {
   total_users: number;
 }
 
-export default function StatCards() {
+export default async function StatCards() {
 
-  const dummyStats: IStatsProps = {
-    status: "operational",
-    last_check: "2023-06-11 12:52:22",
-    message: "bot is connected v2",
-    server_count: 582,
-    total_games: 6547,
-    total_users: 5625
-  }
+  const stats: IStatsProps = await axios.get("https://health.inhousequeue.xyz/health").then(res => {
+    return res.data
+  })
 
   return (
     <div className="relative w-full z-30">
       <div className="flex -translate-y-24 flex-row flex-wrap z-30 w-full align-middle justify-center gap-9">
         <StatCard
-          count={dummyStats.server_count}
+          count={stats.server_count}
           label="Servers"
           aosIndex={0}
         />
 
         <StatCard
-          count={dummyStats.total_users}
+          count={stats.total_users}
           label="Active Players"
           aosIndex={1}
         />
 
         <StatCard
-          count={dummyStats.total_games}
+          count={stats.total_games}
           label="Matches Played"
           aosIndex={2}
         />
