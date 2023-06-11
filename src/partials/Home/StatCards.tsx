@@ -1,4 +1,4 @@
-import axios from "axios";
+import React from "react";
 import StatCard from "../../components/StatCard/StatCard";
 
 interface IStatsProps {
@@ -10,29 +10,36 @@ interface IStatsProps {
   total_users: number;
 }
 
-export default async function StatCards() {
+export default function StatCards() {
+  const [stats, setStats] = React.useState<IStatsProps | undefined>();
 
-  const stats: IStatsProps = await axios.get("https://health.inhousequeue.xyz/health").then(res => {
-    return res.data
-  })
+  React.useEffect(() => {
+    const fetchStats = async () => {
+      const res = await fetch("https://health.inhousequeue.xyz/health")
+      const data = await res.json()
+      setStats(data)
+    };
+
+    fetchStats();
+  }, [])
 
   return (
     <div className="relative w-full z-30">
       <div className="flex -translate-y-24 flex-row flex-wrap z-30 w-full align-middle justify-center gap-9">
         <StatCard
-          count={stats.server_count}
+          count={stats?.server_count ?? 0}
           label="Servers"
           aosIndex={0}
         />
 
         <StatCard
-          count={stats.total_users}
+          count={stats?.total_users ?? 0}
           label="Active Players"
           aosIndex={1}
         />
 
         <StatCard
-          count={stats.total_games}
+          count={stats?.total_games ?? 0}
           label="Matches Played"
           aosIndex={2}
         />
