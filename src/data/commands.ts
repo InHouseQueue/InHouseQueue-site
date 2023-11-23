@@ -520,6 +520,17 @@ const commands = [
       "/top League of Legends Thresh",
     ]
   },
+  {
+    "name": "abandon",
+    "type": "General",
+    "description": "Initiate a vote to cancel an ongoing game",
+    "usage": [
+      "/abandon",
+    ],
+    "examples": [
+      "/abandon",
+    ]
+  },
 
   // ~ Games
   {
