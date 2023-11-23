@@ -566,6 +566,7 @@ const commands = [
 //     ]
 //   }
 // removing these for now - leaving as an example in case i ever add game specific commands
+// full search for "League of Legends commands" in this repo
 ] as const;
 
 // export commands
