@@ -530,7 +530,7 @@ const commands = [
     "examples": [
       "/abandon",
     ]
-  },
+  }
 ] as const;
 
 // export commands
