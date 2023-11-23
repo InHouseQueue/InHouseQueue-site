@@ -532,6 +532,18 @@ const commands = [
     ]
   },
   // ~ Games
+
+  {
+    "name": "hero",
+    "type": "Overwatch",
+    "description": "Select your hero. Only works inside a lobby channel",
+    "usage": [
+      "/hero [name]",
+    ],
+    "examples": [
+      "/hero Tracer",
+    ]
+  },
   {
     "name": "agent",
     "type": "Valorant",
