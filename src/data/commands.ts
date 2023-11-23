@@ -530,6 +530,17 @@ const commands = [
     "examples": [
       "/abandon",
     ]
+  },
+  {
+    "name": "agent",
+    "type": "Valorant",
+    "description": "Select your agent. Only works inside a lobby channel",
+    "usage": [
+      "/agent [name]",
+    ],
+    "examples": [
+      "/agent Astra",
+    ]
   }
 ] as const;
 
