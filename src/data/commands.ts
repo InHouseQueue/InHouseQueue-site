@@ -391,7 +391,7 @@ const commands = [
     {
       "name": "start_challenges",
       "type": "Admin",
-      "description": "Initiate challenges in your server! Let the fun begin",
+      "description": "Initiate challenges in your server. Let the fun begin!",
       "usage": [
        "/start_challenges [game]",
       ],
@@ -600,7 +600,7 @@ const commands = [
   {
     "name": "challenges",
     "type": "General",
-    "description": "View all challenges available for InHouseQueue. Free and Premium",
+    "description": "View all challenges available for InHouseQueue. Free and Premium.",
     "usage": [
       "/challenges",
     ],
