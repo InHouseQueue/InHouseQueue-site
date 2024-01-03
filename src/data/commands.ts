@@ -433,14 +433,14 @@ const commands = [
       ]
     },
      {
-      "name": "captain_pick_order",
+      "name": "captain_pick_type",
       "type": "Admin",
-      "description": "Full customize your captain pick order",
+      "description": "Fully customize the captain pick system",
       "usage": [
-       "/top_ten_preference",
+       "/captain_pick_type",
       ],
       "examples": [
-          "/top_ten_preference",
+          "/captain_pick_type",
       ]
     },
 
