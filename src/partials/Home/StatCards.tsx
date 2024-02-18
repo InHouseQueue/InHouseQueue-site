@@ -1,37 +1,26 @@
+"use client";
+
 import React from "react";
 
 import StatCard from "../../components/StatCard/StatCard";
 
-interface IStatsProps {
-  server_count: number;
-  total_games: number;
-  total_users: number;
-}
-
 export default function StatCards() {
-  const [stats] = React.useState<IStatsProps>({
-    server_count: 2000, // Hardcoded value
-    total_games: 20000, // Hardcoded value
-    total_users: 40000 // Hardcoded value
-  });
-
+  // Directly use the hardcoded values in your JSX
   return (
     <div className="relative w-full z-30">
       <div className="flex -translate-y-24 flex-row flex-wrap z-30 w-full align-middle justify-center gap-9">
         <StatCard
-          count={stats.server_count}
+          count={2000}
           label="Servers"
           aosIndex={0}
         />
-
         <StatCard
-          count={stats.total_users}
+          count={24000}
           label="Active Players"
           aosIndex={1}
         />
-
         <StatCard
-          count={stats.total_games}
+          count={50000}
           label="Matches Played"
           aosIndex={2}
         />
