@@ -9,14 +9,11 @@ interface IStatsProps {
 }
 
 export default function StatCards() {
-  const [stats, setStats] = React.useState<IStatsProps>({
+  const [stats] = React.useState<IStatsProps>({
     server_count: 2000, // Hardcoded value
     total_games: 20000, // Hardcoded value
     total_users: 40000 // Hardcoded value
   });
-
-  React.useEffect(() => {
-  }, []);
 
   return (
     <div className="relative w-full z-30">
