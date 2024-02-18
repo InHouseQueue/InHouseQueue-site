@@ -3,9 +3,6 @@ import React from "react";
 import StatCard from "../../components/StatCard/StatCard";
 
 interface IStatsProps {
-  status: string;
-  last_check: string;
-  message: string;
   server_count: number;
   total_games: number;
   total_users: number;
