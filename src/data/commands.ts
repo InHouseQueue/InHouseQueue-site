@@ -521,6 +521,17 @@ const commands = [
      ]
    },
    {
+     "name": "disable_maps",
+     "type": "Admin",
+     "description": "Disable the map feature",
+     "usage": [
+      "/disable_maps [game]",
+     ],
+     "examples": [
+         "/disable_maps Custom",
+     ]
+   },
+   {
      "name": "remove_map",
      "type": "Admin",
      "description": "Remove a map",
