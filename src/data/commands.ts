@@ -498,6 +498,39 @@ const commands = [
           "/rolling_queue Enabled",
       ]
     },
+   {
+     "name": "maps",
+     "type": "Admin",
+     "description": "Enable maps for a Specific game",
+     "usage": [
+      "/maps [map_selection] [game]",
+     ],
+     "examples": [
+         "/maps Random Custom",
+     ]
+   },
+   {
+     "name": "add_map",
+     "type": "Admin",
+     "description": "Add a map to your server map pool",
+     "usage": [
+      "/add_map [name] (game_mode) [image_url] [game]",
+     ],
+     "examples": [
+         "/add_map Rust Domination https://i.imgur/abcdef.jpg Custom",
+     ]
+   },
+   {
+     "name": "remove_map",
+     "type": "Admin",
+     "description": "Remove a map",
+     "usage": [
+      "/remove_map [map_name]",
+     ],
+     "examples": [
+         "/remove_map Rust",
+     ]
+   },
 
   // ~ Set-up
   {
@@ -661,6 +694,17 @@ const commands = [
     ],
     "examples": [
       "/refresh_challenges",
+    ]
+  },
+  {
+    "name": "list_maps",
+    "type": "General",
+    "description": "List all maps available on the server",
+    "usage": [
+      "/list_maps",
+    ],
+    "examples": [
+      "/list_maps",
     ]
   },
   // ~ Games
