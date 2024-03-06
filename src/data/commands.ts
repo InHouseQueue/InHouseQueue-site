@@ -675,6 +675,28 @@ const commands = [
       "/set_status Just chilling",
     ]
   },
+  {
+    "name": "update_banner ",
+    "type": "Premium",
+    "description": "Update the Queue Banner image",
+    "usage": [
+      "/update_banner [url]",
+    ],
+    "examples": [
+      "/update_banner https://i.imgur.com/123123lhasd",
+    ]
+  },
+  {
+    "name": "update_color ",
+    "type": "Premium",
+    "description": "Update the color of your Queue embed (Hexcode only)",
+    "usage": [
+      "/update_color [color]",
+    ],
+    "examples": [
+      "/update_color #000000",
+    ]
+  },
 //   {
 //     "name": "hero",
 //     "type": "Overwatch",
