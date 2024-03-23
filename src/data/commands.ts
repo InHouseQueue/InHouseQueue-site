@@ -542,6 +542,18 @@ const commands = [
          "/remove_map Rust",
      ]
    },
+    {
+      "name": "show_mmr",
+      "type": "Admin",
+      "description": "Show players MMR next to their names in the queue",
+      "usage": [
+       "/show_mrr [preference]",
+      ],
+      "examples": [
+          "/show_mmr Enabled",
+      ]
+    },
+
 
   // ~ Set-up
   {
@@ -730,6 +742,63 @@ const commands = [
 //       "/champion Teemo",
 //     ]
 //   },
+
+  // ~ Premium
+  {
+    "name": "set_status",
+    "type": "Premium",
+    "description": "Set the Activity of your Bot. (Tier 3 only)",
+    "usage": [
+      "/set_status [status]",
+    ],
+    "examples": [
+      "/set_status Just chilling",
+    ]
+  },
+  {
+    "name": "update_banner ",
+    "type": "Premium",
+    "description": "Update the Queue Banner image",
+    "usage": [
+      "/update_banner [url]",
+    ],
+    "examples": [
+      "/update_banner https://i.imgur.com/123123lhasd",
+    ]
+  },
+  {
+    "name": "update_color ",
+    "type": "Premium",
+    "description": "Update the color of your Queue embed (Hexcode only)",
+    "usage": [
+      "/update_color [color]",
+    ],
+    "examples": [
+      "/update_color #000000",
+    ]
+  },
+  {
+    "name": "rename_teams ",
+    "type": "Premium",
+    "description": "Rename team names to replace 'Blue' & 'Red'",
+    "usage": [
+      "/rename_teams [blue] [red] [queue_channel]",
+    ],
+    "examples": [
+      "/rename_teams Team eSports Team Gaming #queue",
+    ]
+  },
+  {
+    "name": "list_teams ",
+    "type": "Premium",
+    "description": "View the all team names for your server.",
+    "usage": [
+      "/list_teams",
+    ],
+    "examples": [
+      "/list_teams",
+    ]
+  },
 //   {
 //     "name": "hero",
 //     "type": "Overwatch",
