@@ -2,7 +2,7 @@ name: Deploy Production
 env:
   REPO_NAME: ${{ github.event.repository.name }}
   REPO_OWNER: ${{ github.repository_owner }}
-
+  DO_REPO: ${{ secrets.DO_REPO }}
 on:
   workflow_dispatch:
   release:
@@ -56,3 +56,12 @@ jobs:
             docker tag in-house-queue-site $DO_REPOSITORY:$TAG
             echo "Pushing image..."
             docker push $DO_REPOSITORY:$TAG
+
+        - name: Remove old images from Container Registry
+          uses: ripplr-io/docr-image-remove@v1
+          with:
+            image_repository: ${{ env.DO_REPO }}
+            buffer_size: 5
+
+        - name: Start garbage collection
+          run: doctl registry garbage-collection start --include-untagged-manifests --force
