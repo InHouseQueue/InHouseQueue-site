@@ -572,7 +572,7 @@ const commands = [
        "/best_of_series [preference] [channel] [series_type]",
       ],
       "examples": [
-          "/best_of_series True #queue 5,",
+          "/best_of_series True #queue 5",
       ]
     },
 
