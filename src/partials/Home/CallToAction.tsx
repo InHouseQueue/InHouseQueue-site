@@ -40,7 +40,7 @@ export default function CallToAction() {
           </Button>
 
           <Button
-              variant="primary"
+              variant="secondary"
               href="https://inhousequeue.xyz/premium"
               target="_blank"
             >
@@ -48,7 +48,7 @@ export default function CallToAction() {
             </Button>
 
           {/* commands */}
-          <Button variant="secondary" href="/commands" target="_blank">
+          <Button variant="primary" href="/commands" target="_blank">
             Commands
           </Button>
         </div>
