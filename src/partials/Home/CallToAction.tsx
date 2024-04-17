@@ -32,7 +32,7 @@ export default function CallToAction() {
         >
           {/* invite button */}
           <Button
-            variant="primary"
+            variant="secondary"
             href="https://discord.com/api/oauth2/authorize?client_id=1001168331996409856&permissions=1101927804016&scope=bot"
             target="_blank"
           >
@@ -40,7 +40,7 @@ export default function CallToAction() {
           </Button>
 
           <Button
-              variant="secondary"
+              variant="primary"
               href="https://inhousequeue.xyz/premium"
               target="_blank"
             >
@@ -48,7 +48,7 @@ export default function CallToAction() {
             </Button>
 
           {/* commands */}
-          <Button variant="primary" href="/commands" target="_blank">
+          <Button variant="secondary" href="/commands" target="_blank">
             Commands
           </Button>
         </div>
