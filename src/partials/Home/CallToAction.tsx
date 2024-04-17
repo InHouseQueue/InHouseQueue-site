@@ -1,6 +1,4 @@
 import Button from "../../components/Button";
-import CWLLogo from "../../assets/cwl.png";
-import Image from "next/image";
 
 export default function CallToAction() {
   return (
