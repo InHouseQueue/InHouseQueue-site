@@ -29,30 +29,25 @@ const PLAN_DETAILS = [
   /************** TIER 1 - BRONZE **************/
   {
     type: PlanType.Normal,
-    title: "Tier 1 - Bronze",
-    description: "This is the tier if you want to support the Dev team!",
-    price: "$40/mo",
+    title: "Tier 1",
+    description: "Seed the Future - Customisation",
+    price: "$3/mo",
     url: "https://patreon.com/checkout/InHouseQueue?rid=9495552",
     highlights: [
       {
         title: "Custom Queue Banner Image",
         description:
-          "Have a customized banner image for the queues. THis is the image displayed in the queue embed.",
+          "Customized Banner Image for the queues",
       },
       {
         title: "Custom Queue Embed Colour",
         description:
-          "A customized colour for the queue to align with your server aesthetic.",
+          "Customized colour for the queue to align with your server aesthetic.",
       },
       {
         title: "Early access to updates",
         description:
-          "Help shape the future of InHouse Queue by getting access to upcoming features. Provide feedback, and help us test!",
-      },
-      {
-        title: "Monthly Leaderboard",
-        description:
-          "We send your servers leaderboard in CSV format to you (Email or Discord)",
+          "Help Seed the future of InHouseQueue by providing feedback, and helping us test!",
       },
     ],
     features: [
@@ -60,54 +55,65 @@ const PLAN_DETAILS = [
       "Private Patreon Channel Access",
       "Custom Queue Embed Color",
       "Discord Role",
-      "Discord Access",
+      "Private Channel Access",
     ],
   },
 
   /************** TIER 2 - Coming Soon **************/
   {
-    type: PlanType.ComingSoon,
-    title: "Tier 2 - Emerald",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    price: "$??/mo",
+    type: PlanType.Special,
+    title: "Tier 2",
+    description: "Shape the Future - Exclusive Commands and Features",
+    price: "$6/mo",
     url: "#",
     highlights: [
       {
-        title: "Coming Soon",
-        description: (
-          <Fragment>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet
-            consectetur adipiscing elit ut aliquam purus sit amet luctus.
-            Pretium lectus quam id leo in vitae. Tempus iaculis urna id volutpat
-            lacus. Libero enim sed faucibus turpis. Ac orci phasellus egestas
-            tellus rutrum tellus pellentesque. Eleifend mi in nulla posuere
-            sollicitudin. Est sit amet facilisis magna etiam tempor. Id aliquet
-            lectus proin nibh nisl condimentum id venenatis. Convallis tellus id
-            interdum velit laoreet id donec ultrices tincidunt.
-          </Fragment>
-        ),
+        title: "Rename Teams",
+        description: "Remove that boring Red vs Blue! Customize your team names queue!",
+      },
+      {
+        title: "Hide player names",
+        description: "Players remain anonymous until a game starts. Is someone on your dodge list?!",
+      },
+      {
+        title: "Queue dodge Penalties",
+        description: "Issue timeouts for players who consistently don't ready up.",
+      },
+      {
+        title: "Best of 3 / Best of 5",
+        description: "Enable Best of series for the extremely competitive",
+      },
+      {
+        title: "InHouseQueue Seasons",
+        description: "Fully automated seasons. Dedicated leaderboards, queues and MMR. (Coming Soon)",
+      },
+      {
+        title: "Premium Challenges",
+        description: "We have free challenges, watch out for the Premium ones! (Coming Soon)",
       },
     ],
     features: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Placeholder text that will not be displayed.",
-      "Exists just to fill space.",
-      "If you are a user and see this... oops, pulled a rito and their 🍝 code",
-      "this is probably enough text",
+      "Rename Teams",
+      "Hide player names",
+      "Queue dodge Penalties",
+      "Best of 3 / Best of 5",
+      "InHouseQueue Seasons",
+      "Premium Challenges",
+      "ALL Tier 1 Benefits",
     ],
   },
 
   /************** TIER 3 - CHALLENGER **************/
   {
-    type: PlanType.Special,
-    title: "Tier 3 - Challenger",
-    price: "$25/month",
+    type: PlanType.Normal,
+    title: "Tier 3",
+    description: "Secure the Future - White Label InHouseQueue",
+    price: "$9.99/month",
     url: "https://patreon.com/checkout/InHouseQueue?rid=9495619&is_free_trial=true",
     description: (
       <Fragment>
         The top 0.1% <br />
-        <span className="font-bold">Includes benefits from ALL packages</span>
+        <span className="font-bold">The Next level</span>
       </Fragment>
     ),
     highlights: [
@@ -115,16 +121,15 @@ const PLAN_DETAILS = [
         title: "Customized Bot",
         description: (
           <Fragment>
-            We will create and host your own{" "}
-            <span className="font-bold">CUSTOMIZED</span> InHouseQueue bot for
-            your server. We take care of hosting, cost and set-up.
+            Your Discord Exclusive{" "}
+            <span className="font-bold">White Label</span> InHouseQueue bot.
             <br />
             <br />
-            Have a customized bot to fit{" "}
-            <span className="font-bold">your srever branding</span>.
+            A customized bot to fit{" "}
+            <span className="font-bold">your server branding</span>.
             <br />
             <br />
-            Things you can customize:
+            Customisation Include:
             <ul className="list-inside list-disc">
               <li>Bot Name</li>
               <li>Bot Avatar / Display Picture</li>
@@ -135,7 +140,7 @@ const PLAN_DETAILS = [
               <li>Queue Color</li>
             </ul>
             <br />
-            Your bot will <span className="font-bold">always</span> be kept in
+            As this is a Whitelabel of InHouseQueue, your Tier 3 bot will be kept in
             sync with <span className="font-bold">InHouseQueue</span>, which
             includes bug fixes, quality-of-life changes and all future{" "}
             <span className="font-bold">features</span> and{" "}
@@ -143,25 +148,10 @@ const PLAN_DETAILS = [
             cost for as long as you&apos;re a member.
             <br />
             <br />
-            If disruptions occur, our automatic healing systems detect and
-            restart the bot, ensuring consistent uptime.
-            <br />
-            <br />
-            You will have a dedicated section on our status page:{" "}
-            <a
-              href="https://inhousequeue.statuspage.io/"
-              target="_blank"
-              rel="noreferrer"
-              className="text-blue-500"
-            >
-              https://inhousequeue.statuspage.io/
-            </a>
-            <br />
-            <br />
             Free 7-Day TRIAL!
             <ul className="list-inside list-disc">
               <li>
-                This is to familiarise yourself with the bot, give you time to
+                Familiarise yourself with the bot, give you time to
                 test and for us to get it all set up!
               </li>
             </ul>
@@ -169,55 +159,13 @@ const PLAN_DETAILS = [
             <span className="font-bold">One server only</span>
             <br />
             <br />
-            <span className="font-bold">Includes Tier 1 + 2 benefits.</span>
+            <span className="font-bold">All leaderboard Data from the Free bot will automatically transition</span>
             <br />
-            <span className="italic">
-              We will continue to add more benefits to all tiers over time!
-            </span>
           </Fragment>
         ),
       },
     ],
-    features: ["Love from the Dev Team", "Discord Access"],
-  },
-
-  /************** Custom Bot Hosting **************/
-  {
-    type: PlanType.Aside,
-    title: "Custom Bot Hosting",
-    price: "$6/month",
-    url: "https://patreon.com/checkout/InHouseQueue?rid=9581709",
-    description: (
-      <Fragment>
-        Special independent teir for Bot hosting. If you have a bot we have
-        coded for you please select this tier. Does{" "}
-        <span className="font-bold">not</span> include other Tier Benefits, this
-        is for hosting any bot that is not{" "}
-        <span className="font-bold">InHouseQueue</span>.
-      </Fragment>
-    ),
-    highlights: [
-      {
-        title: "Instant Changes",
-        description:
-          "As we are hosting we can make any changes quickly and efficiently. Any improvements, Bug fixes or QOL changes can be live within minutes.",
-      },
-      {
-        title: "99.5% Uptime",
-        description:
-          "Your bot will be online 24/7. Any downtime will be communicated to you prior.",
-      },
-    ],
-    features: [
-      "Hosting Provided by us",
-      "Default hosted in North Virginia NA Region.",
-      "Premium support and debugging for Custom bot",
-      "Private Patreon Channel Access",
-      "Premium Bot Support",
-      "Love from the Dev Team",
-      "Discord Role",
-      "Discord Access",
-    ],
+    features: ["Whitelabel InHouseQueue Bot", "ALL Tier 1 and Tier 2 Benefits"],
   },
 ] satisfies PlanDetail[];
 
