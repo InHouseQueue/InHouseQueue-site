@@ -231,8 +231,6 @@ export default function SubscriptionPage() {
                 data-aos-delay={index * 100}
                 key={index}
               >
-                {/*  soon */}
-                {planDetail.type === PlanType.ComingSoon && <ComingSoon />}
 
                 {/* header */}
                 <div className="flex flex-col">
