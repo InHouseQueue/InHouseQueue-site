@@ -54,6 +54,7 @@ const PLAN_DETAILS = [
       "Custom Queue Embed Color",
       "Discord Role",
       "Private Channel Access",
+      <>Tier 1 Preview <a href="https://docs.inhousequeue.xyz/docs/premium/premium-commands/tier-1" target="_blank" rel="noopener noreferrer">here</a></>
     ],
   },
 
@@ -98,6 +99,7 @@ const PLAN_DETAILS = [
       "InHouseQueue Seasons",
       "Premium Challenges (Coming Soon)",
       "ALL Tier 1 Benefits (Coming Soon)",
+      <>Tier 2 Preview <a href="https://docs.inhousequeue.xyz/docs/premium/premium-commands/tier-2" target="_blank" rel="noopener noreferrer">here</a></>
     ],
   },
 
@@ -156,7 +158,11 @@ const PLAN_DETAILS = [
         ),
       },
     ],
-    features: ["Whitelabel InHouseQueue Bot", "ALL Tier 1 and Tier 2 Benefits"],
+    features: [
+    "Whitelabel InHouseQueue Bot",
+     "ALL Tier 1 and Tier 2 Benefits",
+      <>Tier 3 Preview <a href="https://docs.inhousequeue.xyz/docs/premium/premium-commands/tier-3" target="_blank" rel="noopener noreferrer">here</a></>
+    ],
   },
 
   /************** Custom Bot Hosting **************/
