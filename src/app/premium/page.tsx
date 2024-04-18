@@ -75,7 +75,7 @@ const PLAN_DETAILS = [
       },
       {
         title: "Queue dodge Penalties",
-        description: "Issue timeouts for players who consistently don't ready up.",
+        description: "Issue timeouts for players who consistently dont ready up.",
       },
       {
         title: "Best of 3 / Best of 5",
@@ -167,7 +167,7 @@ const PLAN_DETAILS = [
     url: "https://patreon.com/checkout/InHouseQueue?rid=9581709",
     description: (
       <Fragment>
-        Independent tier for Casual Bot Hosting. If you have another self coded bot you're having trouble hosting We can help.
+        Independent tier for Casual Bot Hosting. If you have another self coded bot you are having trouble hosting, we can help.
       </Fragment>
     ),
     highlights: [
