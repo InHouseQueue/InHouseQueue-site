@@ -29,13 +29,13 @@ const PLAN_DETAILS = [
     type: PlanType.Normal,
     title: "Tier 1",
     description: "Seed the Future - Customisation",
-    price: "$3/mo",
+    price: "$3/month",
     url: "https://patreon.com/checkout/InHouseQueue?rid=9495552",
     highlights: [
       {
         title: "Custom Queue Banner Image",
         description:
-          "Customized Banner Image for the queues",
+          "Customized Banner Image for the queues to align with your server aesthetic.",
       },
       {
         title: "Custom Queue Embed Colour",
@@ -45,7 +45,7 @@ const PLAN_DETAILS = [
       {
         title: "Early access to updates",
         description:
-          "Help Seed the future of InHouseQueue by providing feedback, and helping us test!",
+          "Help Seed the future of InHouseQueue by providing feedback and helping us test!",
       },
     ],
     features: [
@@ -61,17 +61,17 @@ const PLAN_DETAILS = [
   {
     type: PlanType.Special,
     title: "Tier 2",
-    description: "Shape the Future - Exclusive Commands and Features",
-    price: "$6/mo",
+    description: "Shape the Future - Commands and Features",
+    price: "$5.99/month",
     url: "#",
     highlights: [
       {
         title: "Rename Teams",
-        description: "Remove that boring Red vs Blue! Customize your team names queue!",
+        description: "Remove that boring Red vs Blue. Customize your team names in the queue!",
       },
       {
         title: "Hide player names",
-        description: "Players remain anonymous until a game starts. Is someone on your dodge list?!",
+        description: "Players remain anonymous until a game starts. Is someone on your dodge list?",
       },
       {
         title: "Queue dodge Penalties",
@@ -96,8 +96,8 @@ const PLAN_DETAILS = [
       "Queue dodge Penalties",
       "Best of 3 / Best of 5",
       "InHouseQueue Seasons",
-      "Premium Challenges",
-      "ALL Tier 1 Benefits",
+      "Premium Challenges (Coming Soon)",
+      "ALL Tier 1 Benefits (Coming Soon)",
     ],
   },
 
@@ -105,7 +105,7 @@ const PLAN_DETAILS = [
   {
     type: PlanType.Normal,
     title: "Tier 3",
-    description: "Secure the Future - White Label InHouseQueue",
+    description: "Secure the Future - White Label",
     price: "$9.99/month",
     url: "https://patreon.com/checkout/InHouseQueue?rid=9495619&is_free_trial=true",
     highlights: [
@@ -113,11 +113,10 @@ const PLAN_DETAILS = [
         title: "Customized Bot",
         description: (
           <Fragment>
-            Your Discord Exclusive{" "}
-            <span className="font-bold">White Label</span> InHouseQueue bot.
+            <span className="font-bold">White Label</span> InHouseQueue bot, only for your server.
             <br />
             <br />
-            A customized bot to fit{" "}
+            A Exclusive bot to fit{" "}
             <span className="font-bold">your server branding</span>.
             <br />
             <br />
@@ -133,25 +132,25 @@ const PLAN_DETAILS = [
             </ul>
             <br />
             As this is a Whitelabel of InHouseQueue, your Tier 3 bot will be kept in
-            sync with <span className="font-bold">InHouseQueue</span>, which
-            includes bug fixes, quality-of-life changes and all future{" "}
+            sync with <span className="font-bold">InHouseQueue</span>. You will get;
+            bug fixes, quality-of-life changes and all future{" "}
             <span className="font-bold">features</span> and{" "}
             <span className="font-bold">improvements</span>, all at no extra
             cost for as long as you&apos;re a member.
             <br />
             <br />
-            Free 7-Day TRIAL!
+            <span className="font-bold">Free 7-Day TRIAL!</span>
             <ul className="list-inside list-disc">
               <li>
-                Familiarise yourself with the bot, give you time to
-                test and for us to get it all set up!
+                These first 7 Days can be used for setting up and testing. It also gives the developers time to create
+                your awesome bot!
               </li>
             </ul>
             <br />
             <span className="font-bold">One server only</span>
             <br />
             <br />
-            <span className="font-bold">All leaderboard Data from the Free bot will automatically transition</span>
+            <span className="font-bold">All data from the Free bot will automatically transition to your Whitelabel bot.</span>
             <br />
           </Fragment>
         ),
@@ -168,11 +167,7 @@ const PLAN_DETAILS = [
     url: "https://patreon.com/checkout/InHouseQueue?rid=9581709",
     description: (
       <Fragment>
-        Special independent teir for Bot hosting. If you have a bot we have
-        coded for you please select this tier. Does{" "}
-        <span className="font-bold">not</span> include other Tier Benefits, this
-        is for hosting any bot that is not{" "}
-        <span className="font-bold">InHouseQueue</span>.
+        Independent tier for Casual Bot Hosting. If you have another self coded bot you're having trouble hosting We can help.
       </Fragment>
     ),
     highlights: [
