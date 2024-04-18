@@ -161,6 +161,45 @@ const PLAN_DETAILS = [
     ],
     features: ["Whitelabel InHouseQueue Bot", "ALL Tier 1 and Tier 2 Benefits"],
   },
+
+  /************** Custom Bot Hosting **************/
+  {
+    type: PlanType.Aside,
+    title: "Custom Bot Hosting",
+    price: "$6/month",
+    url: "https://patreon.com/checkout/InHouseQueue?rid=9581709",
+    description: (
+      <Fragment>
+        Special independent teir for Bot hosting. If you have a bot we have
+        coded for you please select this tier. Does{" "}
+        <span className="font-bold">not</span> include other Tier Benefits, this
+        is for hosting any bot that is not{" "}
+        <span className="font-bold">InHouseQueue</span>.
+      </Fragment>
+    ),
+    highlights: [
+      {
+        title: "Instant Changes",
+        description:
+          "As we are hosting we can make any changes quickly and efficiently. Any improvements, Bug fixes or QOL changes can be live within minutes.",
+      },
+      {
+        title: "99.5% Uptime",
+        description:
+          "Your bot will be online 24/7. Any downtime will be communicated to you prior.",
+      },
+    ],
+    features: [
+      "Hosting Provided by us",
+      "Default hosted in North Virginia NA Region.",
+      "Premium support and debugging for Custom bot",
+      "Private Patreon Channel Access",
+      "Premium Bot Support",
+      "Love from the Dev Team",
+      "Discord Role",
+      "Discord Access",
+    ],
+  },
 ] satisfies PlanDetail[];
 
 export default function SubscriptionPage() {
