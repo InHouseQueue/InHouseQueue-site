@@ -110,12 +110,6 @@ const PLAN_DETAILS = [
     description: "Secure the Future - White Label InHouseQueue",
     price: "$9.99/month",
     url: "https://patreon.com/checkout/InHouseQueue?rid=9495619&is_free_trial=true",
-    description: (
-      <Fragment>
-        The top 0.1% <br />
-        <span className="font-bold">The Next level</span>
-      </Fragment>
-    ),
     highlights: [
       {
         title: "Customized Bot",
