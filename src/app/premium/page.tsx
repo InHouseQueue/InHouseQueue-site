@@ -3,12 +3,10 @@ import banner from "../../assets/banner.webp";
 import Navbar from "../../partials/Navbar";
 import { Fragment, type ReactNode } from "react";
 import Button from "../../components/Button";
-import ComingSoon from "./ComingSoon";
 
 enum PlanType {
   Normal,
   Special,
-  ComingSoon,
   Aside,
 }
 
