@@ -63,7 +63,7 @@ const PLAN_DETAILS = [
     title: "Tier 2",
     description: "Shape the Future - Commands and Features",
     price: "$5.99/month",
-    url: "#",
+    url: "https://www.patreon.com/checkout/InHouseQueue?rid=9495591",
     highlights: [
       {
         title: "Rename Teams",
