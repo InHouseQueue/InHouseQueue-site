@@ -54,7 +54,6 @@ const PLAN_DETAILS = [
       "Custom Queue Embed Color",
       "Discord Role",
       "Private Channel Access",
-      <>Tier 1 Preview <a href="https://docs.inhousequeue.xyz/docs/premium/premium-commands/tier-1" target="_blank" rel="noopener noreferrer">here</a></>
     ],
   },
 
@@ -99,7 +98,6 @@ const PLAN_DETAILS = [
       "InHouseQueue Seasons",
       "Premium Challenges (Coming Soon)",
       "ALL Tier 1 Benefits (Coming Soon)",
-      <>Tier 2 Preview <a href="https://docs.inhousequeue.xyz/docs/premium/premium-commands/tier-2" target="_blank" rel="noopener noreferrer">here</a></>
     ],
   },
 
@@ -115,11 +113,7 @@ const PLAN_DETAILS = [
         title: "Customized Bot",
         description: (
           <Fragment>
-            <span className="font-bold">White Label</span> InHouseQueue bot, only for your server.
-            <br />
-            <br />
-            A Exclusive bot to fit{" "}
-            <span className="font-bold">your server branding</span>.
+            <span className="font-bold">White Label</span> InHouseQueue bot.
             <br />
             <br />
             Customisation Include:
@@ -137,7 +131,7 @@ const PLAN_DETAILS = [
             sync with <span className="font-bold">InHouseQueue</span>. You will get;
             bug fixes, quality-of-life changes and all future{" "}
             <span className="font-bold">features</span> and{" "}
-            <span className="font-bold">improvements</span>, all at no extra
+            <span className="font-bold">improvements</span>. All at no extra
             cost for as long as you&apos;re a member.
             <br />
             <br />
@@ -152,7 +146,7 @@ const PLAN_DETAILS = [
             <span className="font-bold">One server only</span>
             <br />
             <br />
-            <span className="font-bold">All data from the Free bot will automatically transition to your Whitelabel bot.</span>
+            <span className="font-bold">All data (leaderboards, queue's, wins, losses etc.) will automatically transition to your Whitelabel bot.</span>
             <br />
           </Fragment>
         ),
@@ -161,7 +155,6 @@ const PLAN_DETAILS = [
     features: [
     "Whitelabel InHouseQueue Bot",
      "ALL Tier 1 and Tier 2 Benefits",
-      <>Tier 3 Preview <a href="https://docs.inhousequeue.xyz/docs/premium/premium-commands/tier-3" target="_blank" rel="noopener noreferrer">here</a></>
     ],
   },
 
@@ -194,9 +187,7 @@ const PLAN_DETAILS = [
       "Premium support and debugging for Custom bot",
       "Private Patreon Channel Access",
       "Premium Bot Support",
-      "Love from the Dev Team",
-      "Discord Role",
-      "Discord Access",
+      "Discord Role"
     ],
   },
 ] satisfies PlanDetail[];
