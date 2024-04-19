@@ -146,7 +146,7 @@ const PLAN_DETAILS = [
             <span className="font-bold">One server only</span>
             <br />
             <br />
-            <span className="font-bold">All data (leaderboards, queue's, wins, losses etc.) will automatically transition to your Whitelabel bot.</span>
+            <span className="font-bold">All data (leaderboards, queues, wins, losses etc.) will automatically transition to your Whitelabel bot.</span>
             <br />
           </Fragment>
         ),
