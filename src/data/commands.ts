@@ -651,7 +651,7 @@ const commands = [
       "examples": [
         "/season_stats Custom"
       ]
-    }
+    },
 
   // ~ Set-up
   {
