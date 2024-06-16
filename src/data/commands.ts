@@ -191,14 +191,14 @@ const commands = [
     ]
   },
   {
-    "name": "defaults queue_role",
+    "name": "queue rol",
     "type": "Admin",
     "description": "Users must have this role before being able to queue",
     "usage": [
-      "/defaults queue_role [role] [game]"
+      "/queue role [role] [game]"
     ],
     "examples": [
-      "/defaults queue_role @InHouseQueue League of Legends"
+      "/queue role @InHouseQueue League of Legends"
     ]
   },
   {
