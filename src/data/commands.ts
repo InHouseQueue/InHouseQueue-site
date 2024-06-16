@@ -187,7 +187,6 @@ const commands = [
     ],
     "examples": [
       "/require True League of Legends IGN",
-      "/require True League of Legends Character Required"
     ]
   },
   {
@@ -873,14 +872,14 @@ const commands = [
     ]
   },
   {
-    "name": "challenges",
+    "name": "challenges all",
     "type": "General",
     "description": "View all challenges available for InHouseQueue. Free and Premium.",
     "usage": [
-      "/challenges",
+      "/challenges all",
     ],
     "examples": [
-      "/challenges",
+      "/challenges all",
     ]
   },
   {
