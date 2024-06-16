@@ -883,7 +883,7 @@ const commands = [
     ]
   },
   {
-    "name": "challenges show_all",
+    "name": "challenges personal",
     "type": "General",
     "description": "View your challenge progress",
     "usage": [
