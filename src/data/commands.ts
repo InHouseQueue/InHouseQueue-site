@@ -805,8 +805,7 @@ const commands = [
         "/queue duo_mmr_limit 1500 #queue",
         "/queue duo_mmr_limit 2000 #queue"
       ]
-    }
-
+    },
 
   // ~ Set-up
   {
