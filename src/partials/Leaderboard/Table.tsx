@@ -233,7 +233,7 @@ export function Table(props: {
         <div className="flex w-full flex-row flex-wrap justify-between px-4 py-2 text-white">
           <p className="block w-fit">
             <>
-              Showing !!!! {entries.length}/{props.total} entries.
+              Showing {entries.length}/{props.total} entries.
             </>
           </p>
           <p className="block w-fit">
