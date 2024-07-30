@@ -766,7 +766,7 @@ const commands = [
       "type": "Admin",
       "description": "Add a specified number of wins to a user.",
       "usage": [
-        "/user add_win [member] [amount] [game]"
+        "/user add_win [member] [amount] [game] (queue_channel)"
       ],
       "examples": [
         "/user add_win @player 5 League Of Legends"
@@ -777,7 +777,7 @@ const commands = [
       "type": "Admin",
       "description": "Add a specified number of losses to a user.",
       "usage": [
-        "/user add_loss [member] [amount] [game]"
+        "/user add_loss [member] [amount] [game] (queue_channel)"
       ],
       "examples": [
         "/user add_loss @player 5 League Of Legends"
@@ -788,7 +788,7 @@ const commands = [
       "type": "Admin",
       "description": "Remove a specified number of wins from a user.",
       "usage": [
-        "/user remove_win [member] [amount] [game]"
+        "/user remove_win [member] [amount] [game] (queue_channel)"
       ],
       "examples": [
         "/user remove_win @player 5 League Of Legends"
@@ -799,7 +799,7 @@ const commands = [
       "type": "Admin",
       "description": "Remove a specified number of losses from a user.",
       "usage": [
-        "/user remove_loss [member] [amount] [game]"
+        "/user remove_loss [member] [amount] [game] (queue_channel)"
       ],
       "examples": [
         "/user remove_loss @player 5 League Of Legends"
