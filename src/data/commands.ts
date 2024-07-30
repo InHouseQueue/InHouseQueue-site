@@ -355,6 +355,17 @@ const commands = [
     ]
   },
   {
+    "name": "defaults clean_up_queue",
+    "type": "Admin",
+    "description": "Specify if to automatically delete Queues when a game has ended",
+    "usage": [
+      "/defaults clean_up_queue [condition]"
+    ],
+    "examples": [
+      "/defaults clean_up_queue True"
+    ]
+  },
+  {
    "name": "captain queue",
    "type": "Admin",
    "description": "Toggle Captain mode",
