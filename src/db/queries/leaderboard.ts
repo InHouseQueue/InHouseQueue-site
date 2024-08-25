@@ -152,6 +152,18 @@ export async function fetchLeaderboardRaw(
       "mmr_rating.user_id",
       "merged_points.total_wins as wins",
       "merged_points.total_losses as losses",
+
+      // Maybe someone smarter can figure out how to get the position
+      // the ROW_NUMBER approach does not seem to give correct numbers
+      // sql<string>`ROW_NUMBER() OVER(ORDER BY ${eb.ref("points.wins")} DESC)`.as("position")
+      // And the SELECT COUNT(*) WHERE (order by column) < (order by column) AS position
+      // does not work because I would need to recalculate winrate/mmr
+      // and that seems pretty expensive on the db, also kysely doesn't register the right types when I do that.
+      // eb
+      //   .selectFrom("mmr_rating")
+      //   .select(db.fn.countAll().as("position"))
+      //   .where(orderBy, "<", orderBy)
+      //   .as("position")
     ]);
 
   // Search filter
