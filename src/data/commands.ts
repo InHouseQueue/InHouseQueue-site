@@ -1223,9 +1223,7 @@ const commands = [
     "/premium webhook_url https://example.com/webhook",
     "/premium webhook_url True"
   ]
- }
-
-
+ },
 
 //   {
 //     "name": "hero",
