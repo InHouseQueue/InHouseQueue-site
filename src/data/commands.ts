@@ -1085,6 +1085,18 @@ const commands = [
       "/leaderboard role LOL Total Wins 1Month",
     ]
   },
+  {
+    "name": "decay_notifications",
+    "type": "General",
+    "description": "Allows users to opt out or in to MMR decay notifications.",
+    "usage": [
+      "/decay_notifications [receive_notifications]",
+    ],
+    "examples": [
+      "/decay_notifications False",
+    ]
+  },
+
 
 
   // ~ Games
