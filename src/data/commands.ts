@@ -892,14 +892,14 @@ const commands = [
       ]
     },
     {
-      "name": "queue suspensions_menu",
+      "name": "queue suspensions",
       "type": "Admin",
       "description": "Display the list of currently suspended users.",
       "usage": [
-        "/queue suspensions_menu"
+        "/queue suspensions"
       ],
       "examples": [
-        "/queue suspensions_menu"
+        "/queue suspensions"
       ]
     },
 
