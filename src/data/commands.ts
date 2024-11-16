@@ -865,6 +865,43 @@ const commands = [
         "/queue set_unique_leaderboard #queue Custom",
       ]
     },
+    {
+      "name": "queue ban",
+      "type": "Admin",
+      "description": "Ban a user from queueing.",
+      "usage": [
+        "/queue ban [user] [duration] [reason]"
+      ],
+      "examples": [
+        "/queue ban @User123 1d Spamming inappropriate content",
+        "/queue ban @User456 2h Violation of rules",
+        "/queue ban @User789"
+      ]
+    }
+    {
+      "name": "queue unban",
+      "type": "Admin",
+      "description": "Unban a user from queueing.",
+      "usage": [
+        "/queue unban [user] [reason]"
+      ],
+      "examples": [
+        "/queue unban @User123 Apology accepted",
+        "/queue unban @User456",
+        "/queue unban @User789 Mistaken identity"
+      ]
+    }
+    {
+      "name": "queue bans_menu",
+      "type": "Admin",
+      "description": "Display the list of currently banned users.",
+      "usage": [
+        "/queue bans_menu"
+      ],
+      "examples": [
+        "/queue bans_menu"
+      ]
+    },
 
   // ~ Set-up
   {
