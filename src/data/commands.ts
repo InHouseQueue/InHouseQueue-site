@@ -866,40 +866,40 @@ const commands = [
       ]
     },
     {
-      "name": "queue ban",
+      "name": "queue suspend",
       "type": "Admin",
-      "description": "Ban a user from queueing.",
+      "description": "Suspend a user from queueing temporarily.",
       "usage": [
-        "/queue ban [user] [duration] [reason]"
+        "/queue suspend [user] [duration] [reason]"
       ],
       "examples": [
-        "/queue ban @User123 1d Spamming inappropriate content",
-        "/queue ban @User456 2h Violation of rules",
-        "/queue ban @User789"
+        "/queue suspend @User123 1d Spamming inappropriate content",
+        "/queue suspend @User456 2h Violation of rules",
+        "/queue suspend @User789"
       ]
-    }
+    },
     {
-      "name": "queue unban",
+      "name": "queue unsuspend",
       "type": "Admin",
-      "description": "Unban a user from queueing.",
+      "description": "Remove a user's suspension from queueing.",
       "usage": [
-        "/queue unban [user] [reason]"
+        "/queue unsuspend [user] [reason]"
       ],
       "examples": [
-        "/queue unban @User123 Apology accepted",
-        "/queue unban @User456",
-        "/queue unban @User789 Mistaken identity"
+        "/queue unsuspend @User123 Apology accepted",
+        "/queue unsuspend @User456",
+        "/queue unsuspend @User789 Mistaken identity"
       ]
-    }
+    },
     {
-      "name": "queue bans_menu",
+      "name": "queue suspensions_menu",
       "type": "Admin",
-      "description": "Display the list of currently banned users.",
+      "description": "Display the list of currently suspended users.",
       "usage": [
-        "/queue bans_menu"
+        "/queue suspensions_menu"
       ],
       "examples": [
-        "/queue bans_menu"
+        "/queue suspensions_menu"
       ]
     },
 
