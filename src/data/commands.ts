@@ -453,7 +453,7 @@ const commands = [
       "/check_permissions",
     ],
     "examples": [
-      "/check_permission",
+      "/check_permissions",
     ]
   },
   {
